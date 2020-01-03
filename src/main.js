@@ -10,7 +10,7 @@ Vue.component(Header.name,Header)
 
 
 //导入 Mui样式
-import './lib/mui/css/mui.min.css'
+import './lib/mui/css/mui.min.css'  
 
 import app from './App.vue'
 var vm = new Vue({
