@@ -2,15 +2,21 @@ import Vue from 'vue'
 
 import router from './router.js'
 
-import { Header } from 'mint-ui'
+import VueResource from 'vue-resource'
+Vue.use(VueResource)
+
+import { Header, Swipe, SwipeItem } from 'mint-ui'
 //mint-ui目前须要导入style.css
 import 'mint-ui/lib/style.css'
 
-Vue.component(Header.name,Header)
-
+Vue.component(Header.name, Header)
+Vue.component(Swipe.name, Swipe);
+Vue.component(SwipeItem.name, SwipeItem);
 
 //导入 Mui样式
-import './lib/mui/css/mui.min.css'  
+import './lib/mui/css/mui.min.css'
+import './lib/mui/css/icons-extra.css'
+
 
 import app from './App.vue'
 var vm = new Vue({
