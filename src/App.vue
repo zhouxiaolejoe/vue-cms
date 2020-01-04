@@ -42,7 +42,7 @@ h1 {
   padding: 0;
 }
 
-.v-enter{
+.v-enter{  
   opacity: 0;
   transform: translateX(100%);
 }

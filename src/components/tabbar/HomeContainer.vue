@@ -98,11 +98,11 @@ export default {
   background-color: #fff;
   border: none;
   img {
-    height: 60px;
+    height: 60px;  
     width: 60px;
   }
 }
 .mui-grid-view.mui-grid-9 .mui-table-view-cell {
-  border: 1;
+  border: 1; 
 }
 </style>
